@@ -1,0 +1,19 @@
+ .paypal_checkout{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     height: auto;
+     margin-bottom: 10px;
+     flex-direction: column;
+     background-color: white;
+     
+ }
+ .paypal_option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    height: auto;
+}

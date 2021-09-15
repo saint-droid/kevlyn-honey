@@ -1,0 +1,127 @@
+.checkout{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    flex-direction: row;
+    height: fit-content;
+}
+.checkout__title{
+    margin-right: 10px;
+    margin-top: 60px;
+    padding: 6px;
+    border-bottom: 2px solid lightgray;
+}
+.checkout__button{
+    background-color: inherit;
+    margin-bottom: 9px ;
+    font-size: 14px;
+    font-weight: 800;
+    height: 16px;
+    color: black;
+    outline: none;
+    border-color: inherit;
+    border: none;
+    padding: 2px 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.checkout__h{
+    font-size: 14px;
+    padding: 14px 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.checkout__back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    margin: 5px 0;
+    padding: 0px 14px;
+}
+.NoWaitlist{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    
+}
+.checkout__titleEmpty{
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NoWaitlist p{
+    color: black;
+    padding-top: 40px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NoWaitlist > p > strong{
+    color: red;
+    padding: 0px 10px ;
+   
+}
+.order-link{
+    color: red;
+    padding: 0px 10px ;
+    text-decoration: none;
+   
+}
+.order-link1{
+    text-decoration: none;
+   
+}
+.orders__shopButton{
+    background: none;
+    border-radius: 10px;
+    width: 10%;
+    height: 30px;
+    border:none;
+    margin-top: 20px;
+    border-color: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid blue;
+    }
+    @media only screen and (max-width: 900px) {
+        .NoWaitlist > button{
+            background: none;
+            border-radius: 10px;
+            width: 40%;
+            height: 30px;
+            border:none;
+            margin-top: 20px;
+            border-color: none;
+            outline: none;
+            font-size: 16px;
+            font-weight: 700;
+            border: 1px solid blue;
+            } 
+
+            .checkout__titleEmpty{
+                color: black;
+                padding-top: 100px;
+                padding-bottom: 20px;
+                background-color: white;
+                font-weight: 800;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+    }

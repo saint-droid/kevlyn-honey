@@ -1,0 +1,35 @@
+.subscribe-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.subscribe-form > input{
+    width: 100%;
+    padding: 6px ;
+    border: none;
+    margin: 10px;
+    color: white;
+    border-bottom: 2px solid white;
+    background-color:inherit;
+}
+.subscribe-form > input:focus{
+    width: 100%;
+    outline: none;
+    padding: 6px ;
+    border: none;
+    margin: 10px;
+    color: white;
+    border-bottom: 2px solid blue;
+    background-color:inherit;
+}
+.subscribe-form > button{
+    width: 100%;
+    padding: 6px ;
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+    background-color:inherit;
+    border-radius: 10px;
+}

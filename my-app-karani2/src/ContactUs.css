@@ -1,0 +1,203 @@
+.contact-main {
+  padding: 4px 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 40px;
+}
+.contact-main > img {
+  width: 50%;
+  height: 450px;
+}
+
+.contact {
+  height: 50%;
+  padding: 10px 14px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 25%;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  background-color: whitesmoke;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 40px;
+  background-color: inherit;
+}
+.contact > h4 {
+  color: black;
+  font-size: 18px;
+  padding: 14px 14px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #000;
+  width: 90%;
+}
+.contact > h5 {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  padding: 14px 14px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 10px 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-bottom: none;
+  width: 100%;
+}
+
+.contactForm > input {
+  padding: 14px 12px;
+  border-color: #000;
+  width: 150%;
+  margin: 7px 2px;
+  height: 10px;
+  display: flex;
+  box-shadow: none;
+  outline-color: inherit;
+
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+.contactForm > textarea {
+  border-color: rgb(252, 251, 248);
+  padding: 14px 12px;
+  width: 100%;
+  outline: none;
+  margin: 7px 10px;
+  height: 50px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(15, 10, 10, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  resize: none;
+}
+.contactForm > textarea:focus {
+  outline: none;
+}
+.contactForm-textarea {
+  height: 50px;
+}
+.contactForm > label {
+  color: rgb(59, 53, 53);
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  margin: 14px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+.contactForm > input:focus {
+  outline: none;
+  border-radius: 10px;
+  box-shadow: none;
+  height: 9px;
+}
+
+.contactForm > button {
+  background-color: rgb(59, 6, 250);
+  border-color: inherit;
+  box-shadow: 10px 10px 2px rgb(226, 217, 217);
+  cursor: pointer;
+  color: white;
+  height: fit-content;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 4px 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 14px 20px;
+  border-radius: 8px;
+}
+.contactForm_textarea{
+  width: 150%;
+  margin: 7px 2px;
+  height: 50px;
+  
+}
+@media only screen and (max-width: 900px) {
+
+  .contact {
+    height: auto;
+    padding: 4px 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+  }
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0px;
+    background-color: inherit;
+  }
+  .contactForm > input {
+    padding: 14px 12px;
+    border-color: #000;
+    width: 100%;
+    margin: 7px 2px;
+    height: 10px;
+    display: flex;
+    box-shadow: none;
+    outline-color: inherit;
+  
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 10px;
+  }
+  .contact > h5 {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    padding: 14px 2px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 10px 2px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: none;
+    width: 90%;
+  }
+  .contact > h4 {
+    color: black;
+    font-size: 18px;
+    padding: 14px 1px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    width: 90%;
+  }
+}
