@@ -1,0 +1,45 @@
+.swiper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    
+    margin: 10px;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.slider-content{
+    width: 100%;
+    padding: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 10px;
+}
+.user-photo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 80px;
+    }
+.slider-username{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.slider-testimonial{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}

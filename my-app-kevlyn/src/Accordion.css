@@ -1,0 +1,75 @@
+.accordion {
+    width: 100%;
+    margin: 10px auto 0;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    background: #fff;
+    
+}
+
+.accordion-visible {
+    background:  #fff;
+    width: 80%;
+    color: black;
+    cursor: pointer;
+    border: 1px solid  #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+.accordion-visible span {
+    padding: 15px 0px;
+    font-size: 20px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin-left: 200px;
+}
+.accordion-visible img {
+    width: 20px;
+    transform: rotate(-90deg);
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-visible img.active {
+    transform: rotate(0deg)
+}
+
+.accordion-visible h2 {
+    font-size: 20px;
+}
+
+.accordion-toggle {
+    height: 0px;
+    font-size: 18px;
+    opacity: 0;
+    width:80%;
+    transition:  
+    opacity 0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
+    color: #333;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+}
+
+.animated {
+    opacity: 1;
+    transition:  
+    height 0.3s ease-in-out,
+    opacity 0.3s 0.3s ease-in-out;
+}
+
+.accordion-toggle p {
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin-left: 200px;
+    
+    padding: 22px 30px;
+    pointer-events: none;
+    line-height: 1.3;
+}

@@ -1,0 +1,94 @@
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:row;
+   margin-bottom: 10px;
+    padding-top: 80px;
+}
+.contact > img{
+    width: 40%;
+}
+.contactForm{
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 30px ;
+    height:auto;
+    margin-top:50px;
+
+}
+.contactForm > h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  color: brown;
+}
+.contactForm > input{
+    padding: 10px 8px;
+    width: 95%;
+    border-color: black;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.contactForm > textarea{
+    padding: 10px 8px;
+    width: 95%;
+    height: 40%;
+    border: 2px solid;
+    border-color: black;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.contactForm > label{
+    color: brown;
+    padding: 20px ;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactForm > button{
+    padding: 7px 0px;
+    width: 20%;
+    border-color: brown;
+    outline: none;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 51, 0);
+    border-radius: 100px;
+    border-color: rgb(255, 51, 0);
+}
+.contact-option{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:row; 
+    margin-top: 20px;  
+    padding:20px 10px;
+    
+}
+.contact-option-cont{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;   
+    padding:20px 10px;
+}
+.contact-option-cont > p{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;   
+    padding:0px 10px;
+    color: brown;
+}
